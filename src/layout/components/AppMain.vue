@@ -25,6 +25,7 @@ export default {
   position: relative;
   overflow: hidden;
 }
+/* fix:头部定位后内容被头部遮挡 */
 .fixed-header+.app-main {
   padding-top: 50px;
 }
@@ -34,7 +35,7 @@ export default {
 // fix css style bug in open el-dialog
 .el-popup-parent--hidden {
   .fixed-header {
-    padding-right: 15px;
+    // padding-right: 15px;
   }
 }
 </style>

@@ -1,0 +1,14 @@
+<template>
+  <div class="container">
+    <div class="app-container">
+      Approval
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: 'Approval'
+}
+</script>
+<style scoped>
+</style>

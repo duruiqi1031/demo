@@ -31,6 +31,7 @@ export default {
       'sidebar'
     ]),
     routes() {
+      // 计算属性引入路由
       return this.$router.options.routes
     },
     activeMenu() {
